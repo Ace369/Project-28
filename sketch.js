@@ -26,7 +26,7 @@ function setup() {
 
 	//Create the Bodies Here.
 
-	launcher = new Chain(stone.body, {x: 150, y: 550});
+	//launcher = new Chain(stone.body, {x: 150, y: 550});
 
 	tree = new Tree(600, 450, 400, 500);
 	ground = new Ground(400, 700, 50);
@@ -52,7 +52,7 @@ function draw() {
   background(0);
   drawSprites();
 
-  launcher.display();
+  //launcher.display();
 
   tree.display();
   ground.display();
